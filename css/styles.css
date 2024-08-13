@@ -288,6 +288,7 @@ button {
 }
 .cards {
   padding: 32px 0;
+  padding-bottom: 8px;
 }
 
 .virgin-first {
@@ -311,7 +312,62 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  
 }
+
+
+
+
+
+
+
+.icon-our-t {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+width: 100%;
+padding-bottom: 32px;
+}
+
+
+.linkins-icon {
+  
+}
+
+
+.icon-our-team {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4d5ae5;
+
+}
+.icon-our-team:hover,
+.icon-our-team:focus {
+  background-color: #404bbf;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+
+.svg-icon {
+  fill: #f4f4fd;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .six-pictures {
   padding-top: 120px;
@@ -320,6 +376,7 @@ button {
 
 .section-three {
   display: flex;
+  list-style-type: none;
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
@@ -335,6 +392,32 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.our-text-portfolio {
+position: relative;
+overflow: hidden;
+}
+
+
+.portfolio-textx {
+  position: absolute;
+  top: 0;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+}
+
+
+
+
 
 .cards-two {
   padding: 32px 16px;
