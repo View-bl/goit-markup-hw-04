@@ -147,6 +147,7 @@ button {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  height: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -232,6 +233,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #f4f4fd;
 }
 
 .list-one-icon {
