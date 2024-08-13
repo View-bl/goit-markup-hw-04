@@ -219,17 +219,21 @@ button {
   justify-content: center;
 }
 .section-list {
-  width: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  width: calc((100% - 72px) / 4);
   text-align: left;
 }
 
 .list-one {
-  width: 264px;
+  width: 100%;
   height: 112px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   margin-bottom: 8px;
-  padding-top: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
