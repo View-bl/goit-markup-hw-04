@@ -104,7 +104,7 @@ button {
 
 .nav-link:hover::after,
 .nav-link:focus::after,
-.nav-link .nav-psevdo::after {
+.nav-link.nav-psevdo::after {
 opacity: 1;
 }
 
