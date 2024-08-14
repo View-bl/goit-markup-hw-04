@@ -367,14 +367,15 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
-  
 }
 .our-portfolio:hover .text-p {
   transform: translate(0);
 }
 
-
+.our-portfolio:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 
 .portfolio-text-overflow {
   position: relative;
@@ -384,18 +385,17 @@ button {
   position: absolute;
   top: 0;
   background-color: #4d5ae5;
-font-size: 16px; 
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-height: 100%;
-left: 0;
-padding: 40px 32px;
-transform: translateY(100%);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  height: 100%;
+  left: 0;
+  padding: 40px 32px;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
 }
-
-
 
 .cards-two {
   padding: 32px 16px;
