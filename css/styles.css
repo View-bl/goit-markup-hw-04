@@ -448,8 +448,9 @@ opacity: 1;
 }
 
 .footer-con {
+  margin-right: 120px;
   flex-direction: row;
-  
+  display: flex;
   gap: 72px;
   justify-content: flex-start;
   align-items: baseline;
