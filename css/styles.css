@@ -448,7 +448,7 @@ opacity: 1;
 }
 
 .footer-con {
-  margin-right: 120px;
+ 
   flex-direction: row;
   display: flex;
   gap: 72px;
@@ -456,6 +456,10 @@ opacity: 1;
   align-items: baseline;
   margin: auto;
   width: 1158px;
+}
+
+.social-mmedia {
+  margin-left: 120px;
 }
 
 .p-footer {
