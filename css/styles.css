@@ -132,6 +132,7 @@ button {
 }
 
 .section-main {
+ 
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -438,4 +439,32 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  display: block;
+}
+
+.footer-con {
+  flex-direction: row;
+    display: flex;
+    gap: 72px;
+    justify-content: flex-start;
+    align-items: baseline;
+        margin: auto;
+width: 1158px;
+}
+
+.p-footer {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+display: flex;
+justify-content: center; 
+align-items: center;    
+text-align: center;     
+
+}
+
+.footer-div-two {
+
 }
