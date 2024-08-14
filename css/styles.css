@@ -132,7 +132,6 @@ button {
 }
 
 .section-main {
- 
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -143,7 +142,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.png);
+    url(../images/img-name.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -357,7 +356,6 @@ button {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
- 
 }
 
 .our-portfolio {
@@ -376,7 +374,7 @@ button {
 
 .our-portfolio:hover {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -447,27 +445,25 @@ button {
 
 .footer-con {
   flex-direction: row;
-    display: flex;
-    gap: 72px;
-    justify-content: flex-start;
-    align-items: baseline;
-        margin: auto;
-width: 1158px;
+  display: flex;
+  gap: 72px;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: auto;
+  width: 1158px;
 }
 
 .p-footer {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #fff;
-display: flex;
-justify-content: center; 
-align-items: center;    
-text-align: center;     
-
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-div-two {
-
 }
