@@ -443,7 +443,7 @@ button {
 
 .footer-con {
   flex-direction: row;
-  display: flex;
+  
   gap: 72px;
   justify-content: flex-start;
   align-items: baseline;
@@ -463,5 +463,3 @@ button {
   text-align: center;
 }
 
-.footer-div-two {
-}
