@@ -453,12 +453,15 @@ opacity: 1;
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
-  padding-right: 120px;
+  
+ 
 }
 
 
 
+
 .p-footer {
+  display: flex;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -466,6 +469,7 @@ opacity: 1;
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  
 }
 
 .icon-our-ti {
