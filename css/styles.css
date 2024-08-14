@@ -440,7 +440,6 @@ opacity: 1;
   max-width: 264px;
   font-weight: 400;
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
@@ -448,14 +447,13 @@ opacity: 1;
 }
 
 .footer-con {
-  margin-right: 120px;
-  flex-direction: row;
   display: flex;
-  gap: 72px;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: baseline;
-  margin: auto;
-  width: 1158px;
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-right: 120px;
 }
 
 
@@ -467,9 +465,6 @@ opacity: 1;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
