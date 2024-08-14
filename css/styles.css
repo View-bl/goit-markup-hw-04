@@ -448,7 +448,7 @@ opacity: 1;
 }
 
 .footer-con {
- 
+  margin-right: 120px;
   flex-direction: row;
   display: flex;
   gap: 72px;
@@ -458,9 +458,7 @@ opacity: 1;
   width: 1158px;
 }
 
-.social-mmedia {
-  margin-left: 120px;
-}
+
 
 .p-footer {
   margin-bottom: 16px;
@@ -475,11 +473,13 @@ opacity: 1;
   text-align: center;
 }
 
-.linkins-icon {
-  gap: 16px;
+.icon-our-ti {
+  display: flex;
+  gap: 16px; 
 }
 
 .images-iconik:hover,
 .images-iconik:focus {
   background-color: #31d0aa;
+  
 }
