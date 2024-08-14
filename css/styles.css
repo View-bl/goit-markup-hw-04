@@ -419,6 +419,10 @@ opacity: 1;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.footer-info {
+  margin-right: 120px;
+
+}
 
 .app {
   font-weight: 400;
@@ -449,7 +453,6 @@ opacity: 1;
 
 .footer-con {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
   width: 100%;
   max-width: 1158px;
