@@ -319,12 +319,10 @@ button {
   justify-content: center;
   gap: 24px;
   width: 100%;
-  padding-bottom: 32px;
+ padding-top: 8px;
 }
 
-.linkins-icon {
-  
-}
+
 
 .icon-our-team {
   display: flex;
